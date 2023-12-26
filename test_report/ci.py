@@ -95,7 +95,6 @@ class TestReport:
         
     def __init__(self, xml_file_path: str):
         self._read_and_parse_xml(xml_file_path)
-        self.display()
         
 class MicrobatTest:
     file_path: str
