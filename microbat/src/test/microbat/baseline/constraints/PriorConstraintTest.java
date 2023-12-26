@@ -46,6 +46,8 @@ public class PriorConstraintTest {
 		assertEquals("PC_0", constraint1.getConstraintID());
 		assertEquals("PC_1", constraint2.getConstraintID());
 		assertEquals("PC_2", constraint3.getConstraintID());
+		
+		assertEquals(1, 1);
 	}
 	
 	@Test
