@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><testrun name="test" project="microbat" tests="185" started="185" failures="0" errors="0" ignored="0">
-  <testsuite name="microbat.baseline.constraints.StatementConstraintA1Test" time="0.04">
-    <testcase name="testConstraintID" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.031"/>
-    <testcase name="testControlDominator" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.001"/>
+  <testsuite name="microbat.baseline.constraints.StatementConstraintA1Test" time="0.042">
+    <testcase name="testConstraintID" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.033"/>
+    <testcase name="testControlDominator" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
     <testcase name="testInvalidCaseNo" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.006"/>
-    <testcase name="testDuplicatedVar" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
+    <testcase name="testDuplicatedVar" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.001"/>
     <testcase name="test0R0W1P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.001"/>
     <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
     <testcase name="test1R0W0P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
     <testcase name="test1R1W0P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
-    <testcase name="test1R1W1P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.001"/>
-    <testcase name="test2R2W0P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
+    <testcase name="test1R1W1P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
+    <testcase name="test2R2W0P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.001"/>
     <testcase name="test2R2W1P" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
     <testcase name="testNodeOrder" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
     <testcase name="testVarIDs" classname="microbat.baseline.constraints.StatementConstraintA1Test" time="0.0"/>
   </testsuite>
-  <testsuite name="microbat.baseline.constraints.StatementConstraintA5Test" time="0.007">
-    <testcase name="testMisMatchWriteVar" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.003"/>
+  <testsuite name="microbat.baseline.constraints.StatementConstraintA5Test" time="0.009">
+    <testcase name="testMisMatchWriteVar" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.005"/>
     <testcase name="testMisMatchReadVar" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
     <testcase name="testConstraintID" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.001"/>
     <testcase name="testDuplicatedWrittenVar" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
-    <testcase name="testControlDominator" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.001"/>
+    <testcase name="testControlDominator" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
     <testcase name="testVarIDs_1" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
-    <testcase name="testVarIDs_2" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
+    <testcase name="testVarIDs_2" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.001"/>
     <testcase name="test0R0W0P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
     <testcase name="test0R0W1P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
-    <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.001"/>
+    <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
     <testcase name="test0R1W1P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
-    <testcase name="test0R2W0P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
+    <testcase name="test0R2W0P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.001"/>
     <testcase name="test1R0W0P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
     <testcase name="test1R0W1P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
     <testcase name="test1R1W0P" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
@@ -35,17 +35,17 @@
     <testcase name="testDuplicatedReadVar" classname="microbat.baseline.constraints.StatementConstraintA5Test" time="0.0"/>
   </testsuite>
   <testsuite name="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.007">
-    <testcase name="testSimilarRootCause" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.004"/>
+    <testcase name="testSimilarRootCause" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.005"/>
     <testcase name="testSimilarWrongPath" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.0"/>
-    <testcase name="testConstructor1" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.002"/>
-    <testcase name="testConstructor2" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.0"/>
+    <testcase name="testConstructor1" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.001"/>
+    <testcase name="testConstructor2" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.001"/>
     <testcase name="testSimilarWrongVariable" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.0"/>
-    <testcase name="testAddWrongVariables" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.001"/>
+    <testcase name="testAddWrongVariables" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.0"/>
     <testcase name="testAddCorrectVariables" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.0"/>
     <testcase name="testSimilarCorrect" classname="microbat.debugpilot.userfeedback.DPUserFeedbackTest" time="0.0"/>
   </testsuite>
-  <testsuite name="microbat.baseline.constraints.VariableConstraintA3Test" time="0.002">
-    <testcase name="testMissingControlDominator" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
+  <testsuite name="microbat.baseline.constraints.VariableConstraintA3Test" time="0.003">
+    <testcase name="testMissingControlDominator" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.001"/>
     <testcase name="testConstraintID" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
     <testcase name="testControlDominator" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
     <testcase name="testInvalidCaseNo" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
@@ -53,12 +53,12 @@
     <testcase name="test0R0W1P" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
     <testcase name="test0R2W1P" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
     <testcase name="test1R1W1P" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
-    <testcase name="test2R0W1P" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.001"/>
+    <testcase name="test2R0W1P" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
     <testcase name="test2R1W1P" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
-    <testcase name="testNodeOrder" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
+    <testcase name="testNodeOrder" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.001"/>
     <testcase name="testVarIDs" classname="microbat.baseline.constraints.VariableConstraintA3Test" time="0.0"/>
   </testsuite>
-  <testsuite name="microbat.baseline.constraints.MessageProcessorTest" time="0.027">
+  <testsuite name="microbat.baseline.constraints.MessageProcessorTest" time="0.028">
     <testcase name="testFactorMessage" classname="microbat.baseline.constraints.MessageProcessorTest" time="0.027"/>
     <testcase name="testGraphMessage" classname="microbat.baseline.constraints.MessageProcessorTest" time="0.0"/>
   </testsuite>
@@ -69,17 +69,17 @@
     <testcase name="testDuplicatedWrittenVar" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
     <testcase name="testControlDominator" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
     <testcase name="testVarIDs_1" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
-    <testcase name="testVarIDs_2" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
+    <testcase name="testVarIDs_2" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.001"/>
     <testcase name="test0R0W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
     <testcase name="test0R0W1P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
     <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
-    <testcase name="test0R1W1P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.001"/>
+    <testcase name="test0R1W1P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
     <testcase name="test0R2W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
-    <testcase name="test1R0W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
+    <testcase name="test1R0W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.001"/>
     <testcase name="test1R0W1P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
     <testcase name="test1R1W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
-    <testcase name="test2R0W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.001"/>
-    <testcase name="testNodeOrder" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
+    <testcase name="test2R0W0P" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
+    <testcase name="testNodeOrder" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.001"/>
     <testcase name="testDuplicatedReadVar" classname="microbat.baseline.constraints.StatementConstraintA4Test" time="0.0"/>
   </testsuite>
   <testsuite name="microbat.baseline.factorgraph.VarIDConverterTest" time="0.0">
@@ -92,20 +92,20 @@
     <testcase name="test" classname="microbat.recommendation.RecommendationTest" time="0.0"/>
   </testsuite>
   <testsuite name="microbat.baseline.constraints.VariableConstraintA2Test" time="0.004">
-    <testcase name="testUnMatchedReadVariable" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.001"/>
-    <testcase name="testConstraintID" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.001"/>
+    <testcase name="testUnMatchedReadVariable" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.002"/>
+    <testcase name="testConstraintID" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
     <testcase name="testControlDominator" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
     <testcase name="testInvalidCaseNo" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
-    <testcase name="testDuplicatedVar" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
+    <testcase name="testDuplicatedVar" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.001"/>
     <testcase name="test0R0W0P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
     <testcase name="test1R0W0P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
-    <testcase name="test1R0W1P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.001"/>
+    <testcase name="test1R0W1P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
     <testcase name="test1R1W0P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
-    <testcase name="test1R1W1P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
+    <testcase name="test1R1W1P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.001"/>
     <testcase name="test1R2W0P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
     <testcase name="test1R2W1P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
     <testcase name="test2R1W0P" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
-    <testcase name="testNodeOrder" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.001"/>
+    <testcase name="testNodeOrder" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
     <testcase name="testVarIDs" classname="microbat.baseline.constraints.VariableConstraintA2Test" time="0.0"/>
   </testsuite>
   <testsuite name="microbat.baseline.constraints.StatementConstraintA3Test" time="0.003">
@@ -114,23 +114,23 @@
     <testcase name="testInvalidCaseNo" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="testDuplicatedVar" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="test0R0W1P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
-    <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
+    <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.001"/>
     <testcase name="test1R0W0P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
-    <testcase name="test1R1W0P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.001"/>
+    <testcase name="test1R1W0P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="test1R1W1P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="test2R1W0P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="test2R1W1P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="test2R2W0P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="test2R2W1P" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
     <testcase name="testNodeOrder" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
-    <testcase name="testVarIDs" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.001"/>
+    <testcase name="testVarIDs" classname="microbat.baseline.constraints.StatementConstraintA3Test" time="0.0"/>
   </testsuite>
   <testsuite name="microbat.baseline.constraints.BitRepresentationTest" time="0.007">
-    <testcase name="testClear_IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
+    <testcase name="testClear_IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
     <testcase name="testParseIntWithSize" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testSet" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testParseString" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="testAnd_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
+    <testcase name="testAnd_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testAnd_2" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testClear" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testClone" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
@@ -139,25 +139,25 @@
     <testcase name="testOr_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testOr_2" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testToString" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="testClearMultiple_IndexOutOfBoundsException_2" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
+    <testcase name="testClearMultiple_IndexOutOfBoundsException_2" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testAnd_IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testClear_IndexOutOfBoundsException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.002"/>
     <testcase name="testSet_IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="testSet_IndexOutOfBoundsException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="testSetMultiple_IndexOutOfBoundsException_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
+    <testcase name="testSet_IndexOutOfBoundsException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
+    <testcase name="testSetMultiple_IndexOutOfBoundsException_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testSetMultiple_IndexOutOfBoundsException_2" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testPadding_IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="testSetClear_IndexOutOfBoundsException_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
+    <testcase name="testSetClear_IndexOutOfBoundsException_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
     <testcase name="testOr_IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testDeepCopy" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
+    <testcase name="IllegalArgumentException" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testClearMultiple_IllegalArgumentException_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testClearMultiple_IllegalArgumentException_2" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="testClearMultiple_IllegalArgumentException_3" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
+    <testcase name="testClearMultiple_IllegalArgumentException_3" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
     <testcase name="testSetMultiple_IllegalArgumentException_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testSetMultiple_IllegalArgumentException_2" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testSetMultiple_IllegalArgumentException_3" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
-    <testcase name="testClearMultiple" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.001"/>
+    <testcase name="testClearMultiple" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testParseInt" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testSetMultiple" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
     <testcase name="testParseStringWithSize_1" classname="microbat.baseline.constraints.BitRepresentationTest" time="0.0"/>
@@ -168,30 +168,30 @@
     <testcase name="testControlDominator" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="testInvalidCaseNo" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="testDuplicatedVar" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
-    <testcase name="test0R0W1P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
+    <testcase name="test0R0W1P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.001"/>
     <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="test1R0W0P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="test1R1W0P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="test1R1W1P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="test2R1W0P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
-    <testcase name="test2R1W1P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.001"/>
+    <testcase name="test2R1W1P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="test2R2W0P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
-    <testcase name="test2R2W1P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
+    <testcase name="test2R2W1P" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.001"/>
     <testcase name="testNodeOrder" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
     <testcase name="testVarIDs" classname="microbat.baseline.constraints.StatementConstraintA2Test" time="0.0"/>
   </testsuite>
-  <testsuite name="microbat.baseline.constraints.VariableConstraintA1Test" time="0.002">
+  <testsuite name="microbat.baseline.constraints.VariableConstraintA1Test" time="0.001">
     <testcase name="testConstraintID" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
     <testcase name="testMissingReadVars" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
-    <testcase name="testInvalidCaseNo" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.001"/>
-    <testcase name="testUnMatchWrittenVariable" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
+    <testcase name="testInvalidCaseNo" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
+    <testcase name="testUnMatchWrittenVariable" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.001"/>
     <testcase name="testDuplicatedVar" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
     <testcase name="test0R0W0P" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
     <testcase name="test1R1W0P" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
     <testcase name="test1R2W0P" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
     <testcase name="test2R1W0P" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
     <testcase name="testNodeOrder" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
-    <testcase name="testVarIDs" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.001"/>
+    <testcase name="testVarIDs" classname="microbat.baseline.constraints.VariableConstraintA1Test" time="0.0"/>
   </testsuite>
   <testsuite name="microbat.baseline.constraints.PriorConstraintTest" time="0.0">
     <testcase name="testProbability" classname="microbat.baseline.constraints.PriorConstraintTest" time="0.0"/>
@@ -205,14 +205,14 @@
     <testcase name="testControlDominator" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
     <testcase name="test0R0W0P" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
     <testcase name="test0R0W1P" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
-    <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
+    <testcase name="test0R1W0P" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.001"/>
     <testcase name="test1R0W0P" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
     <testcase name="test1R1W0P" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
     <testcase name="testNodeOrder" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
     <testcase name="testVarIDs" classname="microbat.baseline.constraints.StatementConstraintA6Test" time="0.0"/>
   </testsuite>
-  <testsuite name="microbat.trace.TraceTest" time="0.053">
-    <testcase name="testTraceConstruction" classname="microbat.trace.TraceTest" time="0.053"/>
+  <testsuite name="microbat.trace.TraceTest" time="0.058">
+    <testcase name="testTraceConstruction" classname="microbat.trace.TraceTest" time="0.058"/>
     <testcase name="testReadWrttienVariable" classname="microbat.trace.TraceTest" time="0.0"/>
     <testcase name="testCFGConstructor" classname="microbat.trace.TraceTest" time="0.0"/>
   </testsuite>
