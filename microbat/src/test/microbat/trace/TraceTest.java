@@ -58,6 +58,7 @@ public class TraceTest {
 		System.out.println(executingStatements);
 		
 		assertEquals(55, executingStatements.size());
+		assertEquals(0, 0);
 	}
 	
 	@Test
