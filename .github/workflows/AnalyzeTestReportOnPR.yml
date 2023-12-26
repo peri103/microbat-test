@@ -30,6 +30,8 @@ jobs:
           if git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '^test_report/report.xml$'
           then
             echo "should_proceed=1" >> $GITHUB_OUTPUT
+          else
+            echo "test_report/report.xml does not changed"
           fi
         else
           echo "test_report/report.xml does not exist"
@@ -37,7 +39,7 @@ jobs:
         fi
     - name: die
       id: die
-      if : ${{ steps.main.outputs.changed }} == '1' && ${{ steps.finalize.outputs.should_proceed }} != '1'
+      if : ${{ steps.main.outputs.changed == '1' && steps.finalize.outputs.should_proceed  != '1' }}
       run: |
         echo "You have changed java files but not updated test report. Please run test locally and update the test report."
         exit 1
