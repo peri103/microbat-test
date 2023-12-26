@@ -25,20 +25,22 @@ jobs:
         fi
     - name: ensure_report_updated
       id: finalize
-      if: steps.main.outputs.changed == '1'
       run: |
         if [ -f "test_report/report.xml" ]; then
           if git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '^test_report/report.xml$'
           then
-            echo "Report is also updated"
             echo "should_proceed=1" >> $GITHUB_OUTPUT
-          else
-            echo "Java file updated but report is not updated"
-            exit 1
+          fi
         else
           echo "test_report/report.xml does not exist"
           exit 1
         fi
+    - name: die
+      id: die
+      if : ${{ steps.main.outputs.changed }} == '1' && ${{ steps.finalize.outputs.should_proceed }} != '1'
+      run: |
+        echo "You have changed java files but not updated test report. Please run test locally and update the test report."
+        exit 1
     outputs:
       should_proceed: ${{ steps.finalize.outputs.should_proceed }}
   run_script:
