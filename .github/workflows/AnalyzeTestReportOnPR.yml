@@ -6,9 +6,6 @@ jobs:
   setup_env:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-      with: 
-        fetch-depth: 0
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -16,13 +13,16 @@ jobs:
   check_java_file_change:
     runs-on: ubuntu-latest
     steps:
-      - name: main
-        id: main
-        run: |
-          if git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '^some_directory/.*\.java$'
-          then
-            echo "changed=1" >> $GITHUB_OUTPUT
-          fi
+    - uses: actions/checkout@v2
+      with: 
+        fetch-depth: 0
+    - name: main
+      id: main
+      run: |
+        if git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep '^microbat/.*\.java$'
+        then
+          echo "changed=1" >> $GITHUB_OUTPUT
+        fi
     outputs:
       changed: ${{ steps.main.outputs.changed }}
   run_script:
@@ -30,6 +30,9 @@ jobs:
     needs: [setup_env, check_java_file_change]
     if: needs.check_java_file_change.outputs.changed == '1' 
     steps:
+    - uses: actions/checkout@v2
+      with: 
+        fetch-depth: 0
     - name: Run Scripts
       run: python3 test_report/ci.py
   
