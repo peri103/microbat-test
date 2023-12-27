@@ -23,7 +23,6 @@ public class BitRepresentationTest {
 		for (int idx=0; idx<3; idx++) {
 			assertFalse(this.bitRepresentation.get(idx));
 		}
-		assertEquals(0, 1);
 	}
 	
 	@Test
