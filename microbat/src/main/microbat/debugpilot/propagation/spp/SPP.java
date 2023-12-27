@@ -11,17 +11,20 @@ import microbat.model.trace.TraceNode;
 
 public abstract class SPP implements ProbabilityPropagator {
 
-	protected final Trace trace;
-	protected final List<TraceNode> slicedTrace;
-	protected final Collection<DPUserFeedback> feedbackRecords;
-	
-	public SPP(final PropagatorSettings settings) {
-		this(settings.getTrace(), settings.getSlicedTrace(), settings.getFeedbacks());
-	}
-	
-	public SPP(final Trace trace, final List<TraceNode> slicedTrace, final Collection<DPUserFeedback> feedbackRecords) {
-		this.trace = trace;
-		this.slicedTrace = slicedTrace;
-		this.feedbackRecords = feedbackRecords;
-	}
+  protected final Trace trace;
+  protected final List<TraceNode> slicedTrace;
+  protected final Collection<DPUserFeedback> feedbackRecords;
+
+  public SPP(final PropagatorSettings settings) {
+    this(settings.getTrace(), settings.getSlicedTrace(), settings.getFeedbacks());
+  }
+
+  public SPP(
+      final Trace trace,
+      final List<TraceNode> slicedTrace,
+      final Collection<DPUserFeedback> feedbackRecords) {
+    this.trace = trace;
+    this.slicedTrace = slicedTrace;
+    this.feedbackRecords = feedbackRecords;
+  }
 }
