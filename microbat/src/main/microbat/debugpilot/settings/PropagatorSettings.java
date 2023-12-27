@@ -12,99 +12,95 @@ import microbat.model.trace.TraceNode;
 import microbat.model.value.VarValue;
 
 public class PropagatorSettings {
-	
-	public static final PropagatorType DEFAULT_PROPAGATOR_TYPE = PropagatorType.SPPS_CS;
-	public static final boolean DEFAULT_USE_LOCATL_SERVER = false;
-	public static final String DEFAULT_SERVER_HOST = "172.26.191.20";
-	public static final int DEFAULT_SERVER_PORT = 8084;
-	
-	protected PropagatorType propagatorType = PropagatorSettings.DEFAULT_PROPAGATOR_TYPE;
-	protected boolean useLocalServer = PropagatorSettings.DEFAULT_USE_LOCATL_SERVER;
-	protected String serverHost = PropagatorSettings.DEFAULT_SERVER_HOST;
-	protected int serverPort = PropagatorSettings.DEFAULT_SERVER_PORT;
-	
-	protected Trace trace = null;
-	protected List<TraceNode> slicedTrace = null;
-	protected Set<VarValue> correctVars = null;
-	protected Set<VarValue> wrongVars = null;
-	protected List<DPUserFeedback> feedbacks = new ArrayList<>();
-	
-	public PropagatorSettings() {
-		
-	}
-	
-	public PropagatorType getPropagatorType() {
-		return propagatorType;
-	}
 
-	public void setPropagatorType(PropagatorType propagatorType) {
-		this.propagatorType = propagatorType;
-	}
+  public static final PropagatorType DEFAULT_PROPAGATOR_TYPE = PropagatorType.SPPS_CS;
+  public static final boolean DEFAULT_USE_LOCATL_SERVER = false;
+  public static final String DEFAULT_SERVER_HOST = "172.26.191.20";
+  public static final int DEFAULT_SERVER_PORT = 8084;
 
-	public boolean isUseLocalServer() {
-		return useLocalServer;
-	}
+  protected PropagatorType propagatorType = PropagatorSettings.DEFAULT_PROPAGATOR_TYPE;
+  protected boolean useLocalServer = PropagatorSettings.DEFAULT_USE_LOCATL_SERVER;
+  protected String serverHost = PropagatorSettings.DEFAULT_SERVER_HOST;
+  protected int serverPort = PropagatorSettings.DEFAULT_SERVER_PORT;
 
-	public void setUseLocalServer(boolean useLocalServer) {
-		this.useLocalServer = useLocalServer;
-	}
+  protected Trace trace = null;
+  protected List<TraceNode> slicedTrace = null;
+  protected Set<VarValue> correctVars = null;
+  protected Set<VarValue> wrongVars = null;
+  protected List<DPUserFeedback> feedbacks = new ArrayList<>();
 
-	public String getServerHost() {
-		return serverHost;
-	}
+  public PropagatorSettings() {}
 
-	public void setServerHost(String serverHost) {
-		this.serverHost = serverHost;
-	}
+  public PropagatorType getPropagatorType() {
+    return propagatorType;
+  }
 
-	public int getServerPort() {
-		return serverPort;
-	}
+  public void setPropagatorType(PropagatorType propagatorType) {
+    this.propagatorType = propagatorType;
+  }
 
-	public void setServerPort(int serverPort) {
-		this.serverPort = serverPort;
-	}
+  public boolean isUseLocalServer() {
+    return useLocalServer;
+  }
 
-	public Trace getTrace() {
-		return trace;
-	}
+  public void setUseLocalServer(boolean useLocalServer) {
+    this.useLocalServer = useLocalServer;
+  }
 
-	public void setTrace(Trace trace) {
-		this.trace = trace;
-	}
+  public String getServerHost() {
+    return serverHost;
+  }
 
-	public List<TraceNode> getSlicedTrace() {
-		return slicedTrace;
-	}
+  public void setServerHost(String serverHost) {
+    this.serverHost = serverHost;
+  }
 
-	public void setSlicedTrace(List<TraceNode> slicedTrace) {
-		this.slicedTrace = slicedTrace;
-	}
+  public int getServerPort() {
+    return serverPort;
+  }
 
-	public Set<VarValue> getCorrectVars() {
-		return correctVars;
-	}
+  public void setServerPort(int serverPort) {
+    this.serverPort = serverPort;
+  }
 
-	public void setCorrectVars(Set<VarValue> correctVars) {
-		this.correctVars = correctVars;
-	}
+  public Trace getTrace() {
+    return trace;
+  }
 
-	public Set<VarValue> getWrongVars() {
-		return wrongVars;
-	}
+  public void setTrace(Trace trace) {
+    this.trace = trace;
+  }
 
-	public void setWrongVars(Set<VarValue> wrongVars) {
-		this.wrongVars = wrongVars;
-	}
+  public List<TraceNode> getSlicedTrace() {
+    return slicedTrace;
+  }
 
-	public List<DPUserFeedback> getFeedbacks() {
-		return feedbacks;
-	}
+  public void setSlicedTrace(List<TraceNode> slicedTrace) {
+    this.slicedTrace = slicedTrace;
+  }
 
-	public void setFeedbacks(Collection<DPUserFeedback> feedbacks) {
-		this.feedbacks.clear();
-		this.feedbacks.addAll(feedbacks);
-	}
+  public Set<VarValue> getCorrectVars() {
+    return correctVars;
+  }
 
-	
+  public void setCorrectVars(Set<VarValue> correctVars) {
+    this.correctVars = correctVars;
+  }
+
+  public Set<VarValue> getWrongVars() {
+    return wrongVars;
+  }
+
+  public void setWrongVars(Set<VarValue> wrongVars) {
+    this.wrongVars = wrongVars;
+  }
+
+  public List<DPUserFeedback> getFeedbacks() {
+    return feedbacks;
+  }
+
+  public void setFeedbacks(Collection<DPUserFeedback> feedbacks) {
+    this.feedbacks.clear();
+    this.feedbacks.addAll(feedbacks);
+  }
 }

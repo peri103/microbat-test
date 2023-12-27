@@ -1,14 +1,9 @@
 package microbat.debugpilot.propagation;
 
-public class EmptyPropagator implements ProbabilityPropagator  {
+public class EmptyPropagator implements ProbabilityPropagator {
 
-	public EmptyPropagator() {
+  public EmptyPropagator() {}
 
-	}
-	
-	@Override
-	public void propagate() {
-	}
-
-
+  @Override
+  public void propagate() {}
 }

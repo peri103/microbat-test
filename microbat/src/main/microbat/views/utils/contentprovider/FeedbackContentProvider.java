@@ -6,14 +6,11 @@ import microbat.recommendation.UserFeedback;
 
 public class FeedbackContentProvider implements IStructuredContentProvider {
 
-	@Override
-	public Object[] getElements(Object inputElement) {
-		if (inputElement instanceof UserFeedback[] feedbacks) {
-			return feedbacks;
-		}
-		return null;
-	}
-
-
-
+  @Override
+  public Object[] getElements(Object inputElement) {
+    if (inputElement instanceof UserFeedback[] feedbacks) {
+      return feedbacks;
+    }
+    return null;
+  }
 }
