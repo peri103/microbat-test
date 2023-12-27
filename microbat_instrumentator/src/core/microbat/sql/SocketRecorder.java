@@ -4,7 +4,6 @@ package microbat.sql;
 import java.util.HashMap;
 import java.util.List;
 
-
 import microbat.instrumentation.Agent;
 import microbat.instrumentation.AgentParams;
 import microbat.instrumentation.instr.instruction.info.SerializableLineInfo;

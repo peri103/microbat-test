@@ -3,7 +3,6 @@ package microbat.debugpilot.propagation.BP;
 import java.util.HashMap;
 import java.util.Map;
 
-
 /**
  * VarIDConverter handle the conversion between variable ID and graph node ID
  *

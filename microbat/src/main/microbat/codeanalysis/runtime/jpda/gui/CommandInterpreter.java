@@ -842,7 +842,7 @@ public class CommandInterpreter {
       // Try stripping method from class.method token.
       int idot = token.lastIndexOf(".");
       if ((idot <= 0) || /* No dot or dot in first char */ (idot >= token.length() - 1)) {
-          /* dot in last char */
+        /* dot in last char */
         return null;
       }
       String methodName = token.substring(idot + 1);

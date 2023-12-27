@@ -1252,7 +1252,7 @@ public class TraceInstrumenter extends AbstractInstrumenter {
         new PUSH(
             constPool,
             methodEndLine)); // startTracing, className, String methodSig, int methodStartLine,
-                             // methodEndLine
+    // methodEndLine
 
     String[] argList = getArgumentNames(methodGen);
     newInsns.append(new PUSH(constPool, TraceUtils.encodeArgNames(argList)));

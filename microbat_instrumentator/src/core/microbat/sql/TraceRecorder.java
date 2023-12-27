@@ -3,7 +3,6 @@ package microbat.sql;
 
 import java.util.List;
 
-
 import java.util.HashMap;
 
 import microbat.instrumentation.instr.instruction.info.SerializableLineInfo;

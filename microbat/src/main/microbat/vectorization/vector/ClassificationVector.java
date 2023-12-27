@@ -1,6 +1,5 @@
 package microbat.vectorization.vector;
 
-
 import microbat.bytecode.ByteCode;
 import microbat.bytecode.ByteCodeList;
 import microbat.bytecode.OpcodeType;
