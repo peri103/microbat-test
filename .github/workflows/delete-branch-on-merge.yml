@@ -14,11 +14,10 @@ jobs:
         if: github.event.pull_request.merged == true
         run: |
           PR_TITLE=$(echo "${{ github.event.pull_request.title }}" | tr -d '\n')
-
-          if [[ "$PR_TITLE" == *"[delete-branch]"* ]]; then
+	  if [[ "$PR_TITLE" == *"delete-branch"* ]]; then
             echo "The branch of the emerged pull request has been deleted successfully."
 	    BRANCH_TO_DELETE="${{ github.event.pull_request.head.ref }}"
-	    git push origin --delete $BRANCH_TO_DELETE
+            git push origin --delete $BRANCH_TO_DELETE
           else
             echo "The branch of the emerged pull request will be reserved."
-          fi          
+          fi 
