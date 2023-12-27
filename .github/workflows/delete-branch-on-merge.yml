@@ -4,20 +4,24 @@ on:
   pull_request:
     types:
       - closed
-
 jobs:
-  delete-branch-on-merge:
+  delete-branch:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Delete branch on merge
-        if: github.event.pull_request.merged == true
-        run: |
-          PR_TITLE=$(echo "${{ github.event.pull_request.title }}" | tr -d '\n')
-	  if [[ "$PR_TITLE" == *"delete-branch"* ]]; then
-            echo "The branch of the emerged pull request has been deleted successfully."
-	    BRANCH_TO_DELETE="${{ github.event.pull_request.head.ref }}"
-            git push origin --delete $BRANCH_TO_DELETE
-          else
-            echo "The branch of the emerged pull request will be reserved."
-          fi 
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Check if PR is merged and title contains [delete-branch]
+      run: |
+        if [ "${{ github.event_name }}" != "pull_request" ]; then
+          echo "Not a pull request. Skipping."
+          exit 0
+        fi
+
+        if [ "${{ github.event.pull_request.merged }}" == "true" ] && [ "$(echo "${{ github.event.pull_request.title }}" | grep -c '\[delete-branch\]')" -gt 0 ]; then
+          echo "Deleting branch..."
+          git push origin --delete "${{ github.event.pull_request.head.ref }}"
+        else
+          echo "Branch deletion not required. Skipping."
+        fi
