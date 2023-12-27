@@ -10,21 +10,21 @@ import microbat.model.trace.TraceNode;
 
 public class CorrectnessRootCauseLocator extends AbstractRootCauseLocator {
 
-	public CorrectnessRootCauseLocator(final RootCauseLocatorSettings settings) {
-		this(settings.getSliceTrace(), settings.getFeedbacks(), settings.getOutputNode());
-	}
-	
-	public CorrectnessRootCauseLocator(List<TraceNode> sliceTrace, Collection<DPUserFeedback> feedbacks, TraceNode outputNode) {
-		super(sliceTrace, feedbacks, outputNode);
-	}
+  public CorrectnessRootCauseLocator(final RootCauseLocatorSettings settings) {
+    this(settings.getSliceTrace(), settings.getFeedbacks(), settings.getOutputNode());
+  }
 
-	@Override
-	public TraceNode locateRootCause() {
-		return this.slicedTrace.stream()
-				.filter(node -> !node.equals(this.outputNode))
-				.filter(node -> !this.isFeedbackGivenTo(node))
-				.min(Comparator.comparingDouble(TraceNode::getCorrectness))
-				.orElse(null);
-	}
+  public CorrectnessRootCauseLocator(
+      List<TraceNode> sliceTrace, Collection<DPUserFeedback> feedbacks, TraceNode outputNode) {
+    super(sliceTrace, feedbacks, outputNode);
+  }
 
+  @Override
+  public TraceNode locateRootCause() {
+    return this.slicedTrace.stream()
+        .filter(node -> !node.equals(this.outputNode))
+        .filter(node -> !this.isFeedbackGivenTo(node))
+        .min(Comparator.comparingDouble(TraceNode::getCorrectness))
+        .orElse(null);
+  }
 }

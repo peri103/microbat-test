@@ -7,40 +7,37 @@ import microbat.model.trace.Trace;
 import microbat.model.trace.TraceNode;
 
 public class PathFinderSettings {
-	
-	public static final PathFinderType DEFAULT_PATH_FINDER_TYPE = PathFinderType.SuspiciousDijkstraExp;
-	
-	protected PathFinderType pathFinderType = PathFinderSettings.DEFAULT_PATH_FINDER_TYPE;
-	protected Trace trace = null;
-	protected List<TraceNode> slicedTrace = null;
-	
-	public PathFinderSettings() {
-		
-	}
 
-	public PathFinderType getPathFinderType() {
-		return pathFinderType;
-	}
+  public static final PathFinderType DEFAULT_PATH_FINDER_TYPE =
+      PathFinderType.SuspiciousDijkstraExp;
 
-	public void setPathFinderType(PathFinderType pathFinderType) {
-		this.pathFinderType = pathFinderType;
-	}
+  protected PathFinderType pathFinderType = PathFinderSettings.DEFAULT_PATH_FINDER_TYPE;
+  protected Trace trace = null;
+  protected List<TraceNode> slicedTrace = null;
 
-	public Trace getTrace() {
-		return trace;
-	}
+  public PathFinderSettings() {}
 
-	public void setTrace(Trace trace) {
-		this.trace = trace;
-	}
+  public PathFinderType getPathFinderType() {
+    return pathFinderType;
+  }
 
-	public List<TraceNode> getSlicedTrace() {
-		return slicedTrace;
-	}
+  public void setPathFinderType(PathFinderType pathFinderType) {
+    this.pathFinderType = pathFinderType;
+  }
 
-	public void setSlicedTrace(List<TraceNode> slicedTrace) {
-		this.slicedTrace = slicedTrace;
-	}
+  public Trace getTrace() {
+    return trace;
+  }
 
+  public void setTrace(Trace trace) {
+    this.trace = trace;
+  }
 
+  public List<TraceNode> getSlicedTrace() {
+    return slicedTrace;
+  }
+
+  public void setSlicedTrace(List<TraceNode> slicedTrace) {
+    this.slicedTrace = slicedTrace;
+  }
 }

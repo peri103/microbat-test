@@ -9,20 +9,20 @@ import microbat.model.value.VarValue;
 
 public class CorrectnessDijkstraPathFinder extends DijkstraPathFinder {
 
-	public CorrectnessDijkstraPathFinder(final PathFinderSettings settings) {
-		this(settings.getTrace(), settings.getSlicedTrace());
-	}
-	
-	public CorrectnessDijkstraPathFinder(Trace trace, List<TraceNode> slicedTrace) {
-		super(trace, slicedTrace);
-	}
+  public CorrectnessDijkstraPathFinder(final PathFinderSettings settings) {
+    this(settings.getTrace(), settings.getSlicedTrace());
+  }
 
-	public CorrectnessDijkstraPathFinder() {
-		super();
-	}
+  public CorrectnessDijkstraPathFinder(Trace trace, List<TraceNode> slicedTrace) {
+    super(trace, slicedTrace);
+  }
 
-	@Override
-	protected double getCost(VarValue varValue) {
-		return varValue.getCorrectness();
-	}
+  public CorrectnessDijkstraPathFinder() {
+    super();
+  }
+
+  @Override
+  protected double getCost(VarValue varValue) {
+    return varValue.getCorrectness();
+  }
 }
