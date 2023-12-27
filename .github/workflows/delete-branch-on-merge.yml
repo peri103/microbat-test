@@ -21,7 +21,7 @@ jobs:
 
         if [ "${{ github.event.pull_request.merged }}" == "true" ] && [ "$(echo "${{ github.event.pull_request.title }}" | grep -c '\[delete-branch\]')" -gt 0 ]; then
           echo "Deleting branch..."
-          git push origin --delete "${{ github.event.pull_request.head.ref }}"
+          git push origin --delete "${{ github.event.pull_request.head.ref }}" --force
         else
           echo "Branch deletion not required. Skipping."
         fi
