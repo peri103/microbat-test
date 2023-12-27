@@ -1,0 +1,30 @@
+name: Delete Branch on Merge
+
+on:
+  pull_request:
+    types:
+      - closed
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Check if PR is merged and title contains [delete-branch]
+      run: |
+        if [ "${{ github.event_name }}" != "pull_request" ]; then
+          echo "Not a pull request. Skipping."
+          exit 0
+        fi
+
+        if [ "${{ github.event.pull_request.merged }}" == "true" ] && [ "$(echo "${{ github.event.pull_request.title }}" | grep -c '\[delete-branch\]')" -gt 0 ]; then
+          echo "Deleting branch..."
+          git push origin --delete "${{ github.event.pull_request.head.ref }}"
+        else
+          echo "Branch deletion not required. Skipping."
+        fi
+
