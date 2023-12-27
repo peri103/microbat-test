@@ -25,3 +25,6 @@ jobs:
         else
           echo "Branch deletion not required. Skipping."
         fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKENS }}
+
