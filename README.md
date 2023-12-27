@@ -36,7 +36,7 @@ More details can be refer to https://github.com/llmhyy/microbat/wiki/Compile-Run
 
    <p align="center">
      <img src="/microbat/image/installation-04-01.png" width="700" align="center">
-     <img src="/microbat/image/installation-04-02.png" width="300" align="center">
+     <img src="/microbat/image/installation-04-02.png" width="700" align="center">
      <img src="/microbat/image/Installation-04-03.png" width="700" align="center">
      <img src="/microbat/image/installation-04-04.png" width="700" align="center">
    </p>
