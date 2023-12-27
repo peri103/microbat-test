@@ -35,10 +35,10 @@ More details can be refer to https://github.com/llmhyy/microbat/wiki/Compile-Run
 4. Make sure that you have downloaded java17 specificly and do not use the java17 that is automatically installed with Eclipse. First click " Windows >> Preferences >> Java >> Installed JREs >> Add >> standard VM >> Next ",  and add the java17 you installed in "JRE Definition" window. After that, deselect the automatically installed java17 and select the one you installed and added. When all these are done, apply the changes.
 
    <p align="center">
-     <img src="/microbat/image/installation-04-01.png" width="300" align="center">
+     <img src="/microbat/image/installation-04-01.png" width="700" align="center">
      <img src="/microbat/image/installation-04-02.png" width="300" align="center">
-     <img src="/microbat/image/installation-04-03.png" width="300" align="center">
-     <img src="/microbat/image/installation-04-04.png" width="300" align="center">
+     <img src="/microbat/image/Installation-04-03.png" width="700" align="center">
+     <img src="/microbat/image/installation-04-04.png" width="700" align="center">
    </p>
 
 5. You may run the code as an Eclipse Application then.
