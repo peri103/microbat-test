@@ -12,7 +12,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-
 import microbat.handler.xml.VarValueXmlWriter;
 import microbat.instrumentation.instr.instruction.info.SerializableLineInfo;
 import microbat.model.BreakPoint;

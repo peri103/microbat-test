@@ -8,7 +8,6 @@
 
 package sav.commons.testdata.calculator;
 
-
 /**
  * @author khanh
  */

@@ -8,7 +8,6 @@
 
 package sav.commons.testdata.paper;
 
-
 /**
  * @author LLT
  */

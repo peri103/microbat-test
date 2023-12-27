@@ -1,6 +1,5 @@
 package microbat.debugpilot.propagation.BP.constraint;
 
-
 import microbat.model.trace.TraceNode;
 
 /**

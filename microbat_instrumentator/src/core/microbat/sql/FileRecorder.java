@@ -7,7 +7,6 @@ import java.io.ObjectOutputStream;
 import java.util.HashMap;
 import java.util.List;
 
-
 import microbat.instrumentation.Agent;
 import microbat.instrumentation.AgentLogger;
 import microbat.instrumentation.AgentParams;
