@@ -25,3 +25,26 @@ jobs:
             - Title: ${{ github.event.issue.title }}
             - Body: ${{ github.event.issue.body }}
             - URL: ${{ github.event.issue.html_url }}
+            
+  check-issue:
+    needs: notify-team-of-new-issue
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Issue Format
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Validate Issue Format
+        run: |
+          event_file="${{ github.event_path }}"
+          issue_title=$(jq -r '.issue.title' "$event_file")
+
+          if ! [[ "$issue_title" =~ ^Microbat-[0-9]+: ]]; then
+            echo "Issue title should start with 'Microbat-1234:' followed by digits and a colon."
+            exit 1
+          fi
