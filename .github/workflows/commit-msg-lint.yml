@@ -51,4 +51,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "::error file=${{ github.workspace }}/error.log::$(npx commitlint --from HEAD~1 --to HEAD --verbose 2>&1 | tee ${GITHUB_WORKSPACE}/error.log)"
+          npx commitlint --from HEAD~1 --to HEAD --verbose > ${{ github.workspace }}/error.log
+          echo "::error file=${{ github.workspace }}/error.log::$(cat ${{ github.workspace }}/error.log)"
