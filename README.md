@@ -117,3 +117,6 @@ We can use the following configuration to have the trace of a test method.
   <img src="/microbat/image/junit-trace.png" width="700" align="center">
 </p>
 >>>>>>> origin/master
+
+
+
