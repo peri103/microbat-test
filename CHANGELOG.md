@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/alicializxu/microbat-test/compare/v1.3.0...v1.3.1) (2023-12-29)
+
+
+### Bug Fixes
+
+* **README:** modify README ([b7ade3a](https://github.com/alicializxu/microbat-test/commit/b7ade3a3487816ae54feccfae3a4496505db7da7))
+
 ## [1.3.0](https://github.com/alicializxu/microbat-test/compare/v1.2.1...v1.3.0) (2023-12-28)
 
 
