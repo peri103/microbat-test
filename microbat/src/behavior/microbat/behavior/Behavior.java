@@ -109,7 +109,7 @@ public class Behavior {
     this.skips = skips;
   }
 
-        public void setAdditionalClickOnSteps(int additionalClickOnSteps) {
+  public void setAdditionalClickOnSteps(int additionalClickOnSteps) {
     this.additionalClickOnSteps = additionalClickOnSteps;
   }
 
